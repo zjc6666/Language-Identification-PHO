@@ -3,6 +3,7 @@ import numpy as np
 import torch
 import torch.utils.data as data
 import torch.nn.utils.rnn as rnn_utils
+import kaldiio
 
 def collate_fn(batch):
     batch.sort(key=lambda x: len(x[1]), reverse=True)
