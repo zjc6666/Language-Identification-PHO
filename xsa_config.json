@@ -35,7 +35,7 @@
       "optimizer": "Adam",
       "scheduler": "warmup_cosine",
       "num_work": 4,
-      "device": 3,
+      "device": 0,
       "DDP": "False",
       "SSL_epochs":3,
       "warmup_step": -1,
